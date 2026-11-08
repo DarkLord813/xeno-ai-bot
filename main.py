@@ -66,7 +66,7 @@ from gtts import gTTS
 # ─── 3. Config (CHANNELS, VIP_CHANNEL, BOT_TOKEN) ───────────────────────────
 load_dotenv()
 
-BOT_TOKEN: str = os.getenv("BOT_TOKEN", "9105059305:AAESz6zxMY46zley2VMNiFvpneql-b5dPOc").strip()
+BOT_TOKEN: str = os.getenv("BOT_TOKEN", "").strip()
 if not BOT_TOKEN:
     raise RuntimeError(
         "BOT_TOKEN is missing.\n"
